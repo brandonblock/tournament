@@ -20,7 +20,7 @@ CREATE DATABASE tournament
 
 ### 3. Create Tables 
 
-Two database tables and one viewwill be required. The first table is to track the players in the tournament (this can be used for individual players or teams). The second table is to track matches within the tournament. The view created helps to aggregate the standings.
+Two database tables and one view will be required. The first table is to track the players in the tournament (this can be used for individual players or teams). The second table is to track matches within the tournament. The view created helps to aggregate the standings.
 
 ```
 CREATE TABLE players (
