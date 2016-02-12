@@ -7,11 +7,6 @@ CREATE DATABASE tournament;
 -- Connect to the tournament db
 \connect tournament
 
--- If tables and views exist, drop them
-DROP TABLE IF EXISTS players;
-DROP TABLE IF EXISTS matches CASCADE;
-DROP VIEW IF EXISTS standing;
-
 -- Create the players table
 CREATE TABLE players (
   player_id   SERIAL PRIMARY KEY,
